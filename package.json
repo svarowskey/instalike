@@ -1,0 +1,35 @@
+{
+  "name": "instalike",
+  "version": "1.0.0",
+  "description": "This is an instalike!",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svarowskey/instalike.git"
+  },
+  "author": "svarowskey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svarowskey/instalike/issues"
+  },
+  "homepage": "https://github.com/svarowskey/instalike#readme"
+}
