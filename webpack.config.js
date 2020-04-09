@@ -24,19 +24,16 @@ const config = {
             }
           },
           {
-            test: /\.svg$/,
+            test: /\.s[ac]ss$/i,
             use: [
-              {
-                loader: "babel-loader"
-              },
-              {
-                loader: "react-svg-loader",
-                options: {
-                  jsx: true // true outputs JSX tags
-                }
-              }
-            ]
-          }
+              // Creates `style` nodes from JS strings
+              'style-loader',
+              // Translates CSS into CommonJS
+              'css-loader',
+              // Compiles Sass to CSS
+              'sass-loader',
+            ],
+          },
         ]
     }
 }

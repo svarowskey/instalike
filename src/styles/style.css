@@ -152,3 +152,42 @@
     padding-left: 24px;
     white-space: nowrap;
 }
+.tape-wrap-center {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+    width: 100%;
+}
+.tape-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    max-width: 935px;
+}
+.tape {
+    float: left;
+    margin-right: 28px;
+    max-width: 614px;
+    width: 100%;
+}
+
+.right-bar {
+    height: 100vh;
+    margin-bottom: 30px;
+    padding: 0;
+    top: 60px;
+}
+.right-bar-fixed {
+    position: fixed;
+    top: 78px;
+}
