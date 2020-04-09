@@ -7,9 +7,15 @@ export default class extends React.Component{
     render(){
         return(
             <div className="h-menu">
-                <div className="h-menu-item"><SvgHome /></div>
-                <div className="h-menu-item"><SvgExplore /></div>
-                <div className="h-menu-item"><SvgEvents /></div>
+                <div className="h-menu-item">
+                    <a href="#"><SvgHome /></a>
+                </div>
+                <div className="h-menu-item">
+                    <a href="#"><SvgExplore /></a>
+                </div>
+                <div className="h-menu-item">
+                    <a href="#"><SvgEvents /></a>
+                </div>
             </div>
         );
     }
